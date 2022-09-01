@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+background:url('/images/body.jpg') ;
+background-size: cover;
+background-position:center;
+}
+  .mid {
+    border: 2px solid red; 
+    border-radius: 5px;
+    color: white;
+    display: block;
+    width: 40%;
+    margin: 12px auto;
+    position: relative;
+    right: 7%;
+  }
+  .left {
+    color: white;
+    display: inline-block;
+    position:absolute;
+    left: 34px;
+    top: 20px;
+    height: 20px;
+
+  }
+  .left>h3{
+    margin: -14px;
+    text-align: center;
+  }
+  .left>.photo{
+    height: 62px;
+    width: 133px;
+    position:relative;
+    top: -9px;
+  }
+  .right {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 19px;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+  }
+  .list {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+  }
+  .btn {
+    font-family: "Baloo Bhai", cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: rgb(31, 30, 30);
+  }
+  .container {
+    border: 2px solid white;
+    margin: 60px 52px;
+    padding: 18px;
+    width: 40%;
+    border-radius: 28px;
+  }
+  .container>p{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(0, 224, 253);
+    text-decoration: underline;
+  }
+  
+  .form-group input {
+    font-family: "Baloo Bhai", cursive;
+    text-align: center;
+    display: block;
+    width: 338px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+  }
+  
+  .container h1 {
+    text-align: center;
+  }
+  
+  .container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+  }
